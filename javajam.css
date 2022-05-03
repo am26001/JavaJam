@@ -1,0 +1,408 @@
+/***********************************************************************
+
+Purpose: Type CSS for CH09's Website Case Study of Felke-Morris 10e Book 
+
+Author: Alan Martinez-Lopez
+Date: 02/03/2021 [Wednesday]
+      02/05/2021 [Friday] 
+      02/08/2021 [Monday]
+      02/24/2021 [Wednesday]
+      02/26/2021 [Friday]
+      03/03/2021 [Wednesday]
+      03/05/2021 [Friday]
+      03/08/2021 [Monday]
+      03/15/2021 [Monday] - Starting Task 2 for CH07's Website Case Study
+      03/17/2021 [Wednesday]
+      03/19/2021 [Friday] - Starting Task 3 for CH07's Website Case Study
+      03/22/2021 [Monday] - continue Task 3
+      03/24/2021 [Wednesday] - Starting Task 4 for CH07's Website Case Study
+      03/26/2021 [Friday] - Finishing Task 4 for CH07's Website Case Study
+      03/29/2021 [Monday] - Starting Task 2 CH08
+      04/12/2021 [Monday] - STARTING Task 2 CH09
+      04/13/2021 [Wednesday] - Finish Task 2 CH09
+
+************************************************************************/
+
+/* CH06: Task 2 - Step 1 */
+* {
+    box-sizing: border-box;
+}
+
+/* CH03: Task 2 - Step 1 */
+body {
+    /* CH07: Task 2 - Step 1 CSS Part */
+    background-color: #D2B48C;
+    color: #221811;
+    font-family: Tahoma, Arial, sans-serif;
+    margin: 0;
+}
+
+/* CH03: Task 5 - Step 1 */
+#wrapper {
+    /* CH06: Task 2 - Step 8 1/2 - background-color = dark */
+    /* CH07: Task 2 - Step 2 CSS Part */
+    background-color: #231814;
+    /* CH06: Task 2 - Step 8 2/2 - only next attribute */
+    padding: 0;
+}
+
+/* CH03: Task 2 - Step 2 */
+header {
+    background-color: #D2B48C;
+    /* CH06: Task 2 - Step 2.9 */
+    /* CH07: Task 2 - Step 3 CSS Part */
+    background-image: url(images/cup.jpg);
+    background-repeat: no-repeat;
+    color: #231814;
+    padding-left: 105px;
+    height: 128px;
+    /* CH04: Task 5 - Step 3 */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* CH06: Task 2 - Step 14 */
+header a {
+    text-decoration: none;
+}
+
+header a:link {
+    color: #231814;
+}
+
+header a:visited {
+    color: #231814;
+}
+
+header a:hover {
+    color: #FEF6C2;
+}
+
+/* CH07: Task 2 CSS Part - Step 4 */
+h1 {
+    font-size: 2em;
+}
+
+/* CH03: Task 2 - Step 4 */
+h2 {
+    color: #8C3826;
+}
+
+/* CH04: Task 5 - Step 9 */
+h3,
+dt {
+    color: #8C3826;
+}
+
+/* CH04: Task 5 - Step 8 */
+h4 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    /* CH06: Task 2 - Step 10 */
+    padding-bottom: 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid #221811;
+    clear: left;
+}
+
+/* CH03: Task 2 - Step 5 */
+nav {
+    /* CH06: Task 2 - Step 5 1/2 - only next attribute */
+    /* CH07: Task 2 CSS Part - Step 5 */
+    text-align: center;
+    /* CH04: Task 5 - Step 5 */
+    font-size: 1.5em;
+}
+
+/* CH04: Task 5 - Step 6 */
+nav a {
+    text-decoration: none;
+}
+
+/* CH06: Task 2 - Step 6 */
+nav a:link {
+    color: #FEF6C2;
+}
+
+nav a:visited {
+    color: #D2B48C;
+}
+
+nav a:hover {
+    color: #CC9933;
+}
+
+/* CH06: Task 2 - Step 7 */
+nav ul {
+    /* CH07: Task 2 CSS Part - Step 6 */
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* CH07: Task 2 CSS Part - Step 7 */
+nav li {
+    border-bottom: 1px solid #FEF6C2;
+    padding: .5em 1em;
+    width: 100%;
+}
+
+/* CH04: Task 5 - Step 10 */
+main {
+    /* CH07: Task 2 CSS Part - Step 9 */
+    background-color: #FEF6C2;
+    display: block;
+    /* CH06: Task 2 - Step 3: top, right, bottom, left padding */
+    padding: 0 0 2em 0;
+}
+
+/* CH07: Task 2 CSS Part - Step 12 */
+main ul {
+    padding-left: 2em;
+}
+
+/* CH06: Task 2 - Step 4 */
+h2,
+h3,
+h4,
+p,
+div,
+ul,
+dl {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* CH04: Task 5 - Step 11 */
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+    /* CH06: Task 2 - Step 12 */
+    overflow: auto;
+}
+
+/* CH04: Task 5 - Step 12 */
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* CH04: Task 5 - Step 13 */
+#homehero {
+    /* CH07: Task 2 CSS Part - Step 10 1st Part */
+    height: 300px;
+    background-image: url(images/road.jpg);
+    background-repeat: no-repeat;
+    /* CH06: Task 2 - Step 2a: Replace cover by 100% 100% */
+    background-size: 100% 100%;
+}
+
+/* CH06: Task 2 - Step 2b */
+#heromugs {
+    /* CH07: Task 2 CSS Part - Step 10 3rd Part */
+    height: 300px;
+    background-image: url(images/threemugs.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* CH06: Task 2 - Step 2c */
+#heroguitar {
+    /* CH07: Task 2 CSS Part - Step 10 2nd Part */
+    height: 300px;
+    background-image: url(images/guitar.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* CH09: Task 2 Step 1  */
+#herojobs {
+    height: 300px;
+    background-image: url(images/coffeecup.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* CH07: Task 2 CSS Part - Step 13.a */
+#mobile {
+    display: inline;
+}
+
+/* CH07: Task 2 CSS Part - Step 13.b */
+#desktop {
+    display: none;
+}
+
+/* CH03: Task 2 - Step 6 */
+footer {
+    background-color: #D2B48C;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    /* CH04: Task 5 - Step 7 */
+    padding-bottom: 1em;
+    border-top: 2px solid #8C3826;
+}
+
+/* CH08: Task 2 */
+table {
+    margin: auto;
+    width: 90%;
+    border-spacing: 0;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #D2B48E;
+}
+
+/* CH09: Task 2 Step 2 */
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width: 80%;
+}
+
+input,
+textarea {
+    margin-bottom: .5em;
+}
+
+/* Beginning of Task 3 for CH07's Web Site Case Study */
+@media (min-width: 600px) {
+
+    /* CH07: Task 3 CSS Part - Step 1 */
+    header {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    /* CH07: Task 3 CSS Part - Step 2 */
+    h1 {
+        font-size: 3em;
+    }
+
+    /* CH07: Task 3 CSS Part - Step 3 */
+    nav ul {
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+
+    /* CH07: Task 3 CSS Part - Step 4 */
+    nav li {
+        border-bottom: none;
+    }
+
+    /* CH07: Task 3 CSS Part - Step 5 (3 parts) */
+    #homehero {
+        background-image: url(images/hero.jpg);
+        height: 50vh;
+    }
+
+    #heromugs {
+        background-image: url(images/heromugs.jpg);
+    }
+
+    #heroguitar {
+        background-image: url(images/heroguitar.jpg);
+    }
+
+    /* CH07: Task 3 CSS Part - Step 6 */
+    #flow {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* CH07: Task 3 CSS Part - Step 7 */
+    #mobile {
+        display: none;
+    }
+
+    #desktop {
+        display: inline;
+    }
+
+    /* CH07: Task 3 CSS Part - Step 8 */
+    .details {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* CH07: Task 3 CSS Part - Step 9 */
+    h4 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /* CH09: Task 2 Step 3a */
+    form {
+        width: 40%;
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: 6em 1fr;
+    }
+
+    /* CH09: Task 2 Step 3b */
+    input [type="submit"] {
+        grid-column: 2/3;
+        width: 9em;
+    }
+
+    /* CH09: Task 2 Step 3c */
+    #herojobs {
+        background-image: url(images/herojobs.jpg);
+    }
+}
+
+/* Beginning of Task 4 for CH07's Web Site Case Study */
+@media (min-width: 1024px) {
+
+    /* CH07: Task 4 Step 1 */
+    @supports (display: grid) {
+
+        header {
+            grid-area: header;
+        }
+
+        nav {
+            grid-area: nav;
+        }
+
+        main {
+            grid-area: main;
+        }
+
+        footer {
+            grid-area: footer;
+        }
+
+        /* CH07: Task 4 Step 2 */
+        #wrapper {
+            display: grid;
+            grid-template:
+                "header header"
+                "nav    main"
+                "footer footer"
+                / 200px;
+        }
+
+        /* CH07: Task 4 Step 3 */
+        nav ul {
+            flex-direction: column;
+        }
+
+        /* CH07: Task 4 Step 4 */
+        header {
+            background-image: url(images/coffeelogo.jpg);
+        }
+    }
+}
